@@ -35,7 +35,6 @@ public class Utils {
 		
 	}
 	
-	// IMPORTANT
 	public void registerAllEnchantments() {
 		registerEnchantment(teleportation);
 		Bukkit.getServer().getPluginManager().registerEvents(teleportation, main);
